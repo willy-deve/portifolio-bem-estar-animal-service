@@ -1,4 +1,4 @@
-package com.br.portifolio.bem_estar_animal_service.entitie;
+package com.br.portifolio.bem_estar_animal_service.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
