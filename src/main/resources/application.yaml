@@ -1,3 +1,20 @@
 spring:
   application:
     name: bem-estar-animal-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update # cria/atualiza tabelas conforme entidades
+    show-sql: true # mostra o SQL no console
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080

@@ -1,6 +1,6 @@
-package com.br.portifolio.bem_estar_animal_service.dto;
+package com.br.portifolio.bem_estar_animal_service.dto.user;
 
-import com.br.portifolio.bem_estar_animal_service.entitie.Profile;
+import com.br.portifolio.bem_estar_animal_service.entity.Profile;
 import lombok.Data;
 
 @Data
