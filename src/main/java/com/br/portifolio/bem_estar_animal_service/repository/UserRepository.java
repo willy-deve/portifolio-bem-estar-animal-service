@@ -1,6 +1,6 @@
 package com.br.portifolio.bem_estar_animal_service.repository;
 
-import com.br.portifolio.bem_estar_animal_service.dto.user.UserPerfilResponseDTO;
+import com.br.portifolio.bem_estar_animal_service.dto.UserPerfilResponseDTO;
 import com.br.portifolio.bem_estar_animal_service.entity.Profile;
 import com.br.portifolio.bem_estar_animal_service.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -17,7 +17,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
     Optional<User> findByEmail(String email);
 
     @Query("""
-    SELECT new com.br.portifolio.bem_estar_animal_service.dto.user.UserPerfilResponseDTO(
+    SELECT new com.br.portifolio.bem_estar_animal_service.dto.UserPerfilResponseDTO(
         u.id, u.name, u.email, u.profile, u.approved
     )
     FROM User u

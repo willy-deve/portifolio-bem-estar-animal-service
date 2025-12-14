@@ -1,9 +1,9 @@
 package com.br.portifolio.bem_estar_animal_service.controller;
 
-import com.br.portifolio.bem_estar_animal_service.dto.user.ApproveRequestDTO;
-import com.br.portifolio.bem_estar_animal_service.dto.user.UserPerfilResponseDTO;
-import com.br.portifolio.bem_estar_animal_service.dto.user.UserRequestDTO;
-import com.br.portifolio.bem_estar_animal_service.dto.user.UserResponseDTO;
+import com.br.portifolio.bem_estar_animal_service.dto.ApproveRequestDTO;
+import com.br.portifolio.bem_estar_animal_service.dto.UserPerfilResponseDTO;
+import com.br.portifolio.bem_estar_animal_service.dto.UserRequestDTO;
+import com.br.portifolio.bem_estar_animal_service.dto.UserResponseDTO;
 import com.br.portifolio.bem_estar_animal_service.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,8 +1,8 @@
 package com.br.portifolio.bem_estar_animal_service.service;
 
-import com.br.portifolio.bem_estar_animal_service.dto.user.UserPerfilResponseDTO;
-import com.br.portifolio.bem_estar_animal_service.dto.user.UserRequestDTO;
-import com.br.portifolio.bem_estar_animal_service.dto.user.UserResponseDTO;
+import com.br.portifolio.bem_estar_animal_service.dto.UserPerfilResponseDTO;
+import com.br.portifolio.bem_estar_animal_service.dto.UserRequestDTO;
+import com.br.portifolio.bem_estar_animal_service.dto.UserResponseDTO;
 import com.br.portifolio.bem_estar_animal_service.entity.Profile;
 import com.br.portifolio.bem_estar_animal_service.entity.User;
 import com.br.portifolio.bem_estar_animal_service.exception.UserAlreadyExistsException;
