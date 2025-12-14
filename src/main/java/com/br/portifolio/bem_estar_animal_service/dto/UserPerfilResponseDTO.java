@@ -1,4 +1,4 @@
-package com.br.portifolio.bem_estar_animal_service.dto.user;
+package com.br.portifolio.bem_estar_animal_service.dto;
 
 import com.br.portifolio.bem_estar_animal_service.entity.Profile;
 import lombok.AllArgsConstructor;
